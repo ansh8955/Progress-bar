@@ -1,0 +1,41 @@
+.prog-container{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.progressbar {
+  position: relative; /* with scale */
+  height: 20px;
+  width: 500px;
+  border: 1px solid #241e1e;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+
+.progressbar span{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+
+
+}
+
+
+.animation{
+  
+  background-color: #00c251;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+}
+
+
+  
